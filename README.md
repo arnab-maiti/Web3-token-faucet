@@ -1,1 +1,1 @@
-# web3-token-faucet
+# Web3-token-faucet
