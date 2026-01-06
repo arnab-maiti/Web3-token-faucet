@@ -1,0 +1,103 @@
+
+.user-section {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+.cooldown-text {
+  color: #fc0303;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Common Card */
+.card {
+  background: transparent;
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Headings */
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+/* Reputation Circle */
+.reputation {
+  width: 90px;
+  height: 90px;
+  margin: 16px auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+}
+
+/* Proof of Action List */
+.card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #374151;
+}
+
+/* Centered Card (Claim section) */
+.center {
+  text-align: center;
+}
+
+/* Claim Button */
+.claim-btn {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.claim-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+/* Cooldown Timer */
+.timer {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #374151;
+}
+
+/* Helper Text */
+.center small {
+  display: block;
+  margin-top: 4px;
+  color: #6b7280;
+}
+.task button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}

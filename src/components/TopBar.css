@@ -1,0 +1,51 @@
+.topbar1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar1 .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.topbar1 .wallet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.topbar1 p{
+    margin-top: 5px;
+}
+.topbar1 button{
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    box-shadow: 0 2px 4px rgba(17, 14, 14, 0.3);
+    cursor: pointer;
+}
+.topbar1 button:hover{
+    border-color: #4c51bf;
+}
+.balance{
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    border: none;
+    box-shadow: 0 2px 4px rgba(17, 14, 14, 0.3);
+    cursor: pointer;
+}
+.connected{
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    box-shadow: 0 2px 4px rgba(17, 14, 14, 0.3);
+    cursor: pointer;
+}
